@@ -8,3 +8,5 @@ RUN apk add --update curl gfortran make musl-dev \
     && make
     
 RUN cd /root/camb && ./camb params.ini
+
+RUN ls /root/camb
